@@ -1,0 +1,156 @@
+body {
+    font-family: 'Roboto';
+    color: #757575;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* color: #757575; - main
+color: #212121; - secondary
+
+color: #2196F3; - blue  */
+
+.header-logo {
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo {
+    color: #2196F3;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: #2196F3;
+}
+
+.hero {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 200px 452px 0 452px;
+}
+
+.hero-button {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 30px 692px 200px 692px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    cursor: pointer;
+}
+
+.benefits-subject {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.activity-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.teammates {
+    background: #F5F4FA;
+    width: 1600px;
+}
+
+.teammates-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.teammates--item {
+    background-color: #fff;
+}
+
+.footer {
+    background: #2F303A;
+    width: 1600px;
+    height: 252px;
+}
+
+.footer-logo {
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.address-link-position {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+.address-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
