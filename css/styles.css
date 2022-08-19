@@ -188,6 +188,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    font-family: inherit;
 }
 
 .filter-btn:hover,
