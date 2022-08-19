@@ -232,6 +232,11 @@ body {
     top: 174px;
 }
 
+.current {
+    background-color: var(--accent-cl);
+    color: var(--main-bg-cl);
+}
+
 .portfolio-item {
     background-color: var(--main-bg-cl);
     border: 1px solid #EEEEEE;
