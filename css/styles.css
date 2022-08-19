@@ -15,6 +15,7 @@ body {
     font-family: var(--main-font), var(--secondary-font);
     font-size: 14px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
     color: var(--main-txt-cl);
     background-color: var(--main-bg-cl);
 }
@@ -27,7 +28,6 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    letter-spacing: 0.03em;
     color: #000000;
 }
 
@@ -103,20 +103,17 @@ body {
 .benefits-subject {
     font-weight: 700;
     line-height: 1.1;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .benefits-text {
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: var(--secondary-txt-cl)
 }
 
 .activity-title {
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 0.03em;
 }
 
 .teammates {
@@ -126,7 +123,6 @@ body {
 .teammates-title {
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 0.03em;
 }
 
 .teammates--item {
@@ -137,7 +133,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .team-position {
@@ -145,7 +140,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .footer {
@@ -157,13 +151,11 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    letter-spacing: 0.03em;
 }
 
 .address-link {
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
 }
@@ -176,7 +168,6 @@ body {
 .address-link-position {
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: var(--main-bg-cl);
     font-style: normal;
 }
@@ -197,7 +188,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-    letter-spacing: 0.03em;
 }
 
 .filter-btn:hover,
@@ -256,6 +246,5 @@ body {
 .portfolio-desc {
     font-size: 16px;
     line-height: 1.9;
-    letter-spacing: 0.03em;
     color: var(--secondary-txt-cl);
 }
