@@ -14,7 +14,6 @@
 body {
     font-family: var(--main-font), var(--secondary-font);
     font-size: 14px;
-    line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
     background-color: var(--main-bg-cl);
@@ -28,6 +27,8 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: #000000;
 }
 
@@ -37,7 +38,7 @@ body {
 
 .header-link {
     font-weight: 500;
-    line-height: 1.1;
+    line-height: 1.19;
     letter-spacing: 0.02em;
     color: var(--main-txt-cl);
 }
@@ -72,7 +73,7 @@ body {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
@@ -83,12 +84,12 @@ body {
     font-family: inherit;
     width: 216px;
     height: 50px;
-    background: #2196F3;
+    background-color: var(--accent-cl);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--main-bg-cl)
@@ -102,18 +103,21 @@ body {
 
 .benefits-subject {
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.14;
     text-transform: uppercase;
+    font-size: 14px;
 }
 
 .benefits-text {
-    line-height: 1.7;
+    line-height: 1.71;
     color: var(--secondary-txt-cl)
 }
 
 .activity-title {
     font-weight: 700;
     font-size: 36px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
 }
 
 .teammates {
@@ -123,6 +127,8 @@ body {
 .teammates-title {
     font-weight: 700;
     font-size: 36px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
 }
 
 .teammates--item {
@@ -133,13 +139,16 @@ body {
     font-weight: 500;
     font-size: 16px;
     text-align: center;
+    letter-spacing: 0.03em;
+    line-height: 1.19;
 }
 
 .team-position {
     color: var(--secondary-txt-cl);
-    font-weight: 500;
     font-size: 16px;
     text-align: center;
+    letter-spacing: 0.03em;
+    line-height: 1.19;
 }
 
 .footer {
@@ -151,11 +160,13 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 1.19;
 }
 
 .address-link {
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
 }
@@ -167,7 +178,7 @@ body {
 
 .address-link-position {
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
     color: var(--main-bg-cl);
     font-style: normal;
 }
@@ -187,49 +198,15 @@ body {
     border: none;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.62;
     font-family: inherit;
+    letter-spacing: 0.03em;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
     background-color: var(--accent-cl);
     color: var(--main-bg-cl);
-}
-
-.all-btn {
-    width: 73px;
-    height: 38px;
-    left: 512px;
-    top: 174px;
-}
-
-.web-site-btn {
-    width: 125px;
-    height: 38px;
-    left: 593px;
-    top: 174px;
-}
-
-.applications-btn {
-    width: 112px;
-    height: 38px;
-    left: 726px;
-    top: 174px;
-}
-
-.design-btn {
-    width: 103px;
-    height: 38px;
-    left: 846px;
-    top: 174px;
-}
-
-.marketing-btn {
-    width: 103px;
-    height: 38px;
-    left: 846px;
-    top: 174px;
 }
 
 .current {
@@ -251,6 +228,7 @@ body {
 
 .portfolio-desc {
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.87;
     color: var(--secondary-txt-cl);
+    letter-spacing: 0.03em;
 }
